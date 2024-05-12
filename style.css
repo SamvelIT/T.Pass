@@ -2,6 +2,7 @@
     --second-color: #F5F6F7;
     --black-color: #0F2336;
     --black-hover: rgb(31, 30, 30);
+    --blue: #00CCCC;
 }
 
 * {
@@ -26,7 +27,6 @@ body {
     margin: 0 auto;
     max-width: 1500px;
     padding: 0 10px;
-    padding-block-start: 0%;
 }
 
 ul {
@@ -81,8 +81,30 @@ header {
     flex-grow: 1;
 }
 
+.footer {
+    margin-top: 30px;
+    background-color: var(--black-color);
+}
 
+.footer__content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 150px 0;
+    padding-top: 50px;
+}
 
+.footer__nav {
+    flex-grow: 1;
+}
 
+.footer__nav-list {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
 
+.footer__nav-list p {
+    color: var(--blue);
+}
 
