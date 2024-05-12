@@ -1,5 +1,6 @@
 :root {
-
+    --second-color: #F5F6F7;
+    --black-color: #0F2336;
 }
 
 * {
@@ -8,9 +9,60 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    background-color: var(--white)
+}
+
 .container {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 30px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+    background-color: var(--second-color);
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 50px;
+    justify-content: end;
+}
+
+.header__list {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.header__nav {
+    flex-grow: 1;
+}
+
+
+
+
+
 
