@@ -98,13 +98,13 @@ header {
     flex-grow: 1;
 }
 
-.footer__nav-list {
+.footer__title-list {
     display: flex;
     gap: 50px;
     justify-content: center;
 }
 
-.footer__nav-list p {
+.footer__title-list p {
     color: var(--blue);
 }
 
