@@ -3,6 +3,7 @@
     --black-color: #0F2336;
     --black-hover: rgb(31, 30, 30);
     --blue: #00CCCC;
+    --white-color: #FFFFFFB2;
 }
 
 * {
@@ -100,7 +101,7 @@ header {
 
 .footer__title-list {
     display: flex;
-    gap: 50px;
+    gap: 130px;
     justify-content: center;
 }
 
@@ -108,3 +109,66 @@ header {
     color: var(--blue);
 }
 
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__link p {
+    color: var(--white-color);
+    padding-left: 425px;
+    padding-top: 17px;
+}
+
+.footer__title-links {
+    display: flex;
+    text-align: center;
+    gap: 130px;
+    padding-left: 415px;
+    padding-top: 17px;
+}
+
+.footer__title-links a {
+    color: var(--white-color);
+    text-decoration: none;
+    transition: color 0.7s;
+}
+
+.footer__title-links a:hover {
+    color: var(--second-color);
+}
+
+.footer__title-links-2 {
+    display: flex;
+    text-align: center;
+    gap: 90px;
+    padding-left: 610px;
+    padding-top: 17px;
+}
+
+.footer__title-links-2 a {
+    color: var(--white-color);
+    text-decoration: none;
+    transition: color 0.7s;
+}
+
+.footer__title-links-2 a:hover {
+    color: var(--second-color);
+}
+
+.footer__title-links-3 {
+    display: flex;
+    text-align: center;
+    gap: 98px;
+    padding-left: 615px;
+    padding-top: 17px;
+}
+
+.footer__title-links-3 a {
+    color: var(--white-color);
+    text-decoration: none;
+    transition: color 0.7s;
+}
+
+.footer__title-links-3 a:hover {
+    color: var(--second-color);
+}
