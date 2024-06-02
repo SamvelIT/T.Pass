@@ -102,7 +102,14 @@ header {
     transform: translateY(-20%);
 }
 
-
+.footer__leafe-2 {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: clamp(90px, 10vw, 150px);
+    transform: translateY(-20%);
+}
 
 .footer__content {
     position: relative;
@@ -135,3 +142,4 @@ header {
 .footer__link:hover {
     color: var(--second-color);
 }
+
