@@ -139,7 +139,11 @@ header {
     color: var(--blue);
 }
 
-
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
 .footer__link {
     color: var(--white-color);
