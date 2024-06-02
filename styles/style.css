@@ -4,6 +4,7 @@
     --black-hover: rgb(31, 30, 30);
     --blue: #00CCCC;
     --white-color: #FFFFFFB2;
+    --orange: #F3AF47;
 }
 
 * {
@@ -48,18 +49,36 @@ main {
     cursor: pointer;
     padding: 16px 42px;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
     line-height: 1.25;
     background: var(--black-color);
     text-decoration: none;
-    color: white;
+    color: var(--second-color);
     font-size: 20px;
     position: relative;
-    transition: background 0.5s;
+    transition-property: background, box-shadow;
+    transition-duration: 0.5s;
 }
 
 .button:hover {
     background: var(--black-hover);
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+}
+
+.blue-btn {
+    background-color: var(--blue);
+    cursor: pointer;
+    border: none;
+    padding: 19px 35px 19px 21px;
+    border-radius: 14px;
+    box-shadow: 0px 3px 18px 0px #00C9C98C;
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-orange {
+    color: var(--orange);
 }
 
 header {
