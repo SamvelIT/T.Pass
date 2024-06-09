@@ -187,6 +187,11 @@ header {
 
 .hero__btn-svg {
     margin-left: 15px;
+    transition: transform 0.5s;
+}
+
+.hero__btn:hover .hero__btn-svg {
+    transform: translateX(14px);
 }
 .hero__title {
     display: flex;
@@ -210,7 +215,7 @@ header {
     color: var(--orange);
 }
 
-.priority {
+/* .priority {
     padding: 100px 0;
 }
 
@@ -265,7 +270,7 @@ header {
     display: flex;
     color: var(--576D81);
     gap: 91px;
-}
+} */
 
 .how__work-img {
     display: flex;
