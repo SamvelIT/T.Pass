@@ -215,120 +215,98 @@ header {
     color: var(--orange);
 }
 
-/* .priority {
+.priority {
     padding: 100px 0;
 }
 
-.priority__icon {
+.priority__list {
     display: flex;
-    margin-left: 200px;
-    align-items: center;
-    gap: 272px;
+    gap: 52px;
 }
 
-.priority__icon-heading {
-    display: flex;
-    font-size: 25px;
-    margin-top: 12px;
-    gap: 80px;
+.howwork {
+    padding: 100px 0;
 }
 
-.priority__icon-heading-1 {
+.howwork__content {
     display: flex;
-    margin-left: 180px;
+    justify-content: center;
 }
 
-.priority__icon-heading-2 {
-    position: absolute;
-    top: 980px;
-    right: 850px;
-}
-
-.priority__icon-heading-3 {
-    display: flex;
-    margin-left: 285px;
-}
-
-.priority__icon-text-1 {
-    display: flex;
-    margin-left: 180px;
-}
-
-.priority__icon-text-2 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 80px;
-}
-
-.priority__icon-text-3 {
-    display: flex;
-    flex-direction: column;
-    margin-right: 315px;
-}
-
-.priority__icon-text {
-    display: flex;
-    color: var(--576D81);
-    gap: 91px;
-} */
-
-.how__work-img {
-    display: flex;
-    margin-top: 200px;
-    margin-left: 180px;
-}
-
-.store {
-    padding: 20px 0;
+.exclusive {
+    padding: 10px 0;
     background-color: var(--second-color);
 }
 
 .gifts {
-    padding: 119px 0;
+    padding: 180px 0;
 }
 
-.gifts__img {
+.gifts__content {
     display: flex;
-    margin-left: 150px;
+    justify-content: center;
 }
 
-.buy {
-    padding: 150px 0;
+.request {
+    padding: 180px 0;
 }
 
-.buy__svg {
+.request__svg {
     display: flex;
-    align-items: center;
-    margin-left: 656px;
+    justify-content: center;
 }
 
-.buy__text {
+.request__title {
+    font-size: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 50px;
-    margin-top: 23px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.request__inp-field-btn {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 .label {
     display: flex;
-    align-items: center;
+    gap: 16px;
+    font-size: 18px;
 }
 
 .input {
-    border-radius: 8px;
+    border-radius: 6px;
     padding: 17px 111px 16px 114px;
+    background-color: var(--input-color);
     outline: none;
     border: none;
-    background-color: var(--input-color);
-    margin-left: 510px;
 }
 
-.download__app {
+.request__btn {
+    background-color: var(--blue);
+    border: none;
+    border-radius: 14px;
+    padding: 16px 35px 17px 36px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+
+.request__btn:hover {
+    box-shadow: 0px 3px 18px 0px #00c9c98c
+}
+
+.request__btn-text {
+    font-size: 18px;
+    display: flex;
+}
+
+.download__apps {
     display: flex;
     gap: 24px;
-    margin-left: 510px;
-    margin-top: 20px;
+    cursor: pointer;
+    padding: 0px 611px 110px 470px;
 }
 
 .footer {
