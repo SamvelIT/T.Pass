@@ -3,11 +3,17 @@
     --black-color: #0f2336;
     --black-hover: rgb(31, 30, 30);
     --blue: #00cccc;
-    --white-color: #ffffffb2;
+    --second-color-light: #ffffffb2;
     --orange: #f3af47;
-    --576D81: #576d81;
+    --gray: #576d81;
     --input-color: #f0f0f2;
 }
+
+/* 1200 */
+/* 991 */
+/* 768 */
+/* 576 */
+
 
 * {
     padding: 0;
@@ -37,6 +43,34 @@ body {
 
 .content-container {
     padding: 0 50px;
+}
+
+@media (max-width: 1200px ) {
+    .container {
+        padding: 0 60px;
+    }
+
+}
+
+@media (max-width: 991px ) {
+    .container {
+        padding: 0 40px;
+    }
+    .content-container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px ) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 576px ) {
+    .container {
+        padding: 0 16px;
+    }
 }
 
 h1,
@@ -374,7 +408,7 @@ header {
 }
 
 .footer__link {
-    color: var(--white-color);
+    color: var(--second-color-light);
     text-decoration: none;
     transition: color 0.7s;
 }
