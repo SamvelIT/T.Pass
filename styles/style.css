@@ -251,6 +251,12 @@ header {
     padding: 180px 0;
 }
 
+.request__content {
+    margin: 0 auto;
+    width: 570px;
+    max-width: 100%;
+}
+
 .request__svg {
     display: flex;
     justify-content: center;
@@ -263,28 +269,32 @@ header {
     padding: 20px 0;
 }
 
-.request__inp-field-btn {
+.request__form {
     display: flex;
     gap: 20px;
     justify-content: center;
     padding: 20px 0;
 }
 
-.label {
+.request__label {
     display: flex;
     gap: 16px;
     font-size: 18px;
+    width: 100%;
 }
 
-.input {
+.request__input {
+    width: 100%;
     border-radius: 6px;
-    padding: 17px 111px 16px 114px;
+    padding: 16px 20px;
     background-color: var(--input-color);
     outline: none;
     border: none;
+    text-align: center;
 }
 
 .request__btn {
+    flex-shrink: 0;
     background-color: var(--blue);
     border: none;
     border-radius: 14px;
@@ -305,8 +315,7 @@ header {
 .download__apps {
     display: flex;
     gap: 24px;
-    cursor: pointer;
-    padding: 0px 611px 110px 470px;
+  
 }
 
 .footer {
